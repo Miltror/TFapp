@@ -1,6 +1,6 @@
 #container {
   text-align: center;
-  
+  background-color: #179316;
   position: absolute;
   left: 0;
   right: 0;
@@ -34,10 +34,6 @@
 
 }
 
-#Contenedor2{
- 
-
-}
 #InputPago{
   background-color: #179316;
   width: 153px;
@@ -62,4 +58,8 @@
 .Menus{ 
   zoom: 1.85;
   margin-top: 7%;
+}
+
+ion-content.Background{
+  --ion-background-color:#179316;
 }

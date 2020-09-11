@@ -6,7 +6,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content id="Principal" [fullscreen]="true">
+<ion-content id="Principal" [fullscreen]="true" class="Background">
   <ion-grid id="Contenedor1">
     <ion-row>
       <ion-col class="ion-text-start">
@@ -86,7 +86,7 @@
         $
       </ion-col>
       <ion-col class="ion-text-end Menus" >
-        <ion-icon name="refresh-outline"></ion-icon>
+        <ion-icon name="refresh-outline" (click)="GoToHistorial()"></ion-icon>
       </ion-col>
     </ion-row>
   </ion-grid>

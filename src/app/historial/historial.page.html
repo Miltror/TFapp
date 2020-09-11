@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Historial</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="Principal">
+  <ion-grid id="TituloHistorial" >
+<ion-row>
+  <ion-col   class="ion-text-start">
+   Historial
+  </ion-col>
+  <ion-col class="ion-text-center Icono1">
+    <ion-icon name="search-outline"></ion-icon>
+  </ion-col>
+  <ion-col class="ion-text-end Icono2">
+    <ion-icon name="person-circle-outline"></ion-icon>
+  </ion-col>
+</ion-row>
+  </ion-grid>
+  <ion-grid > 
+    <ion-row>
+      <ion-col class="ion-text-start Menus" >
+        <ion-icon name="card-outline"></ion-icon>
+      </ion-col>
+      <ion-col class="ion-text-center Menus" (click)="GoToHome()">
+        $
+      </ion-col>
+      <ion-col class="ion-text-end Menus" >
+        <ion-icon name="refresh-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
