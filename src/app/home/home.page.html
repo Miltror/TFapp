@@ -1,20 +1,93 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      app
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>klk singa tu madre</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content id="Principal" [fullscreen]="true">
+  <ion-grid id="Contenedor1">
+    <ion-row>
+      <ion-col class="ion-text-start">
+        <ion-icon name="scan-outline"></ion-icon>
+      </ion-col>
+      <ion-col class="ion-text-end" > 
+        <ion-icon name="person-circle-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid id="Contenedor2" class="ion-text-center">
+    <ion-row>
+      <ion-col >
+        <input type="text" value="0" id="InputPago">
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="ion-text-center" id="Contenedor3" >  
+  <ion-row class="Filas"> 
+    <ion-col>
+      1
+    </ion-col>
+    <ion-col>
+      2
+    </ion-col>
+    <ion-col>
+      3
+    </ion-col>
+  </ion-row >
+  <ion-row class="Filas"> 
+    <ion-col>
+      4
+    </ion-col>
+    <ion-col>
+      5
+    </ion-col>
+    <ion-col>
+      6
+    </ion-col>
+  </ion-row>
+  <ion-row class="Filas"> 
+    <ion-col>
+      7
+    </ion-col>
+    <ion-col>
+      8
+    </ion-col>
+    <ion-col>
+      9
+    </ion-col>
+  </ion-row>
+  <ion-row> 
+    <ion-col>
+      .
+    </ion-col>
+    <ion-col>
+      0
+    </ion-col>
+    <ion-col>
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-col>
+  </ion-row>
+  </ion-grid>
+  <ion-grid id="BotonPago" class="ion-text-center"> 
+    <ion-row>
+      <ion-col> 
+        Pagar
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid > 
+    <ion-row>
+      <ion-col class="ion-text-start Menus" >
+        <ion-icon name="card-outline"></ion-icon>
+      </ion-col>
+      <ion-col class="ion-text-center Menus" >
+        $
+      </ion-col>
+      <ion-col class="ion-text-end Menus" >
+        <ion-icon name="refresh-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
