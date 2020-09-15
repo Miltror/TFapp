@@ -14,5 +14,8 @@ export class HistorialPage{
   GoToHome(){
     this.route.navigate([ 'home'])
   }
+  GoToTarjetas(){
+    this.route.navigate([ 'tarjetas'])
+  }
 
 }

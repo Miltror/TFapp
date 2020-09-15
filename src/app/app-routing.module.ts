@@ -14,7 +14,11 @@ const routes: Routes = [
   {
     path: 'historial',
     loadChildren: () => import('./historial/historial.module').then( m => m.HistorialPageModule)
+  },  {
+    path: 'tarjetas',
+    loadChildren: () => import('./tarjetas/tarjetas.module').then( m => m.TarjetasPageModule)
   },
+
 
 ];
 

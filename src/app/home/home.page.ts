@@ -14,5 +14,8 @@ export class HomePage {
   GoToHistorial(){
     this.route.navigate([ 'historial'])
   }
+  GoToTarjetas(){
+    this.route.navigate([ 'tarjetas'])
+  }
 
 }
