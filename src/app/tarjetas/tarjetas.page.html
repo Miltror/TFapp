@@ -4,8 +4,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-grid id="PrincipalTarjeta" class="Background">
+<ion-content class="Background">
+  <ion-grid id="PrincipalTarjeta" >
     <ion-row>
       <ion-col class="ion-text-start">
         <ion-icon name="scan-outline"></ion-icon>
@@ -15,7 +15,20 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-
+  <ion-row>
+    <ion-col class="Mensaje ion-text-wrap ion-text-center col-10 offset">
+        <ion-text >
+         Desea añadir una tarjeta?
+         si es asi por favor
+         haga click en el boton de +.
+        </ion-text>
+    </ion-col>
+  </ion-row>
+<ion-row class="ion-text-center Agregar" >  
+  <ion-col>
+    <ion-icon name="add-circle-outline" click="GoToNumeroTarejeta()"></ion-icon>
+  </ion-col>
+</ion-row>
   <ion-grid > 
     <ion-row>
       <ion-col class="ion-text-start Menus" >

@@ -14,9 +14,18 @@ const routes: Routes = [
   {
     path: 'historial',
     loadChildren: () => import('./historial/historial.module').then( m => m.HistorialPageModule)
-  },  {
+  },
+  {
     path: 'tarjetas',
     loadChildren: () => import('./tarjetas/tarjetas.module').then( m => m.TarjetasPageModule)
+  },
+  {
+    path: 'tarjetas',
+    loadChildren: () => import('./tarjetas/tarjetas.module').then( m => m.TarjetasPageModule)
+  },
+  {
+    path: 'numero-de-tarjeta',
+    loadChildren: () => import('./numero-de-tarjeta/numero-de-tarjeta.module').then( m => m.NumeroDeTarjetaPageModule)
   },
 
 

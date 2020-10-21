@@ -1,5 +1,7 @@
 {
   "name": "TFApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

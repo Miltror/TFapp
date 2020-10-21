@@ -7,16 +7,21 @@ import { NavController } from '@ionic/angular';
   templateUrl: './tarjetas.page.html',
   styleUrls: ['./tarjetas.page.scss'],
 })
-export class TarjetasPage  {
+export class TarjetasPage{
 
   constructor(private route: Router, private navCrtl:NavController) {}
-    
-    GoToHistorial(){
-      this.route.navigate([ 'historial'])
-    }
-    GoToHome(){
-      this.route.navigate([ 'home'])
-    }
   
+  GoToHistorial(){
+    this.route.navigate([ 'historial'])
+  }
+  GoToHome(){
+    this.route.navigate([ 'home'])
+  }
+  GoToNumeroTarejeta(){
+    this.route.navigate( [ 'numero-de-tarjeta'])
+  }
+  
+ 
+  }
 
-}
+

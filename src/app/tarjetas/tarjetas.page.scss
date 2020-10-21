@@ -1,3 +1,28 @@
-ion-content.Background{
-    --ion-background-color:#ffff;
+.Background{
+    --ion-background-color:#ffffff;
+    --ion-text-color:#000000;
+  }
+  
+.Menus{ 
+    zoom: 1.85;
+    margin-top: 65%;
+  }
+
+  #PrincipalTarjeta{
+      zoom: 1.85;
+  }
+  .Agregar{
+    
+    zoom: 5.0;
+  }
+
+  .Mensaje{
+   border: solid;
+   border-color: #179316;
+   border-width: 5px;
+   border-radius: 20px;
+   margin-top: 25%;
+   background-color: #179316;
+   height: 60px;
+   width: 50px;
   }
